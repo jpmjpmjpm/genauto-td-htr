@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use those data, please cite it as below."
+authors:
+- family-names: "Boutet"
+  given-names: "Jean-François"
+- family-names: "Merx"
+  given-names: "Jean-Pierre"
+  orcid: "https://orcid.org/0000-0001-5545-2993"
+title: "GenAuto TD Corpus"
+version: 1.0.0
+doi: 10.5281/zenodo.5507403
+date-released: 2021-09-14
+url: "https://github.com/jpmjpmjpm/genauto-td-htr.git"
