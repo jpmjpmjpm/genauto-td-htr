@@ -35,22 +35,39 @@ This dataset was built by Jean-François Boutet and [Jean-Pierre Merx](https://g
 The original works and their digitization are all copyright-free, but properly annotating a corpus takes time and is a task that should be recognized. If you use any item from this corpus of ground truth, cite the dataset using the following information:
 
 ```
-name: 'GenAuto TD Corpus'
-url: 'https://github.com/HTR-United/tapuscorpus'
-author: 'Jean-François Boutet, Jean-Pierre Merx'
-month: 'September'
-year: '2021'
-version: '1.0'
-description: 'Ground Truth dataset for French handwritten pages of Civil Registry (Tables Décennales)'
+title : 'GenAuto TD Corpus'
+url: 'https://github.com/jpmjpmjpm/genauto-td-htr.git'
+project-name: 'GenAuto'
+project-website: ''
+authors:
+    - name: 'Boutet'
+      surname: 'Jean-François'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+    - name: 'Merx'
+      surname: 'Jean-Pierre'
+      roles:
+      - 'transcriber'
+      - 'aligner'
+      - 'project-manager'
+description: '150 transcribed images from "Tables Décennales" French Civil Registry.
+Those come from Sermaises and Romilly-sur-Seine municipalities. '
 language: 'French'
-time: '1792-1902'
-hands: '30'
+#other-languages:
+#    - "Optional"
+script: 'Latin'
+script-type: 'only-manuscript'
+time: 1792--1902
+hands: 
+    - count: 'less-than-11'
+      precision: 'estimated'
 license:
     - {name: 'CC-BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/'}
-format: ALTO-XML
+format: 'Alto-XML'
 volume:
-    - {count: "150", metric: images}
-    - {count: "150", metric: double pages}
+    - {count: "300", metric: "pages"}
+    - {count: "150, metric: "images"}
 ```
 
 
