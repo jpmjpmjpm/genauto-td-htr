@@ -22,7 +22,7 @@ jobs:
       env:
         ECHO-GITHUBWORKFLOW: "YES"
       run: |
-        humGenerator --group rom-1883-1892/*.xml rom-1893-1902/*.xml sermaises/*.xml
+        humGenerator --group rom-1883-1892/*.xml rom-1893-1902/*.xml sermaises/*.xml --github-envs
         cat envs.txt >> $GITHUB_ENV
     - name: Create Awesome Badge for CHARS
       uses: Schneegans/dynamic-badges-action@v1.1.0
