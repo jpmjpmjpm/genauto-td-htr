@@ -49,7 +49,7 @@ jobs:
       with:
         auth: ${{ secrets.GIST_SECRET }}
         gistID: "f9d911269b14e279fca33a4224279234"
-        filename: "cremma-print-badges-regions.json"
+        filename: "regions.json"
         label: "Number of regions"
         message: ${{ env.HTRUNITED_REGNS }}
         color: informational
