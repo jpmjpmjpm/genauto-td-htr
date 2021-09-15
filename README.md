@@ -1,4 +1,7 @@
-[![CC BY 4.0][cc-by-shield]][cc-by] ![Lines Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/lines.json) ![Chars Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/chars.json) ![Region Badges](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/regions.json)
+[![CC BY 4.0][cc-by-shield]][cc-by]
+![Lines Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/lines.json)
+![Chars Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/chars.json)
+![Region Badges](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/regions.json)
 
 # GenAuto TD Corpus
 ## Description
