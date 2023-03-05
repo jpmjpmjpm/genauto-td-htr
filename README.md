@@ -3,9 +3,10 @@
 ![Chars Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/chars.json)
 ![Region Badges](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/jpmjpmjpm/f9d911269b14e279fca33a4224279234/raw/regions.json)
 
-
 # GenAuto TD Corpus
+
 ## Description
+
 Ground Truth dataset for French handwritten pages of Civil Registry "Tables Décennales"
 
 ## Content
@@ -15,17 +16,16 @@ Ground Truth dataset for French handwritten pages of Civil Registry "Tables Déc
 **Only first names, last names and dates are transcribed and only for birth sections of the documents.**
 
 The Alto files contain:
+
 - Segmentation of the transcribed texts.
 - Transcription of the texts.
 - Polygonalization of the transcribed text zones (performed by [kraken](http://kraken.re/) OCR solution).
 
-
-
-| # | name | nb of images | GT for segmenter? | GT for recognizer? | link(s) to source images | 
-| --- | :---- | :---: | :---: | :---: | ---: | 
-| 1 | sermaises | (69) | y | y | [Archives départementales du Loiret (Sermaises)][sermaises] |
-| 2 | rom-1883-1892 | (41) | y | y | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1883-1892] |
-| 3 | rom-1893-1902 | (40) | y | y | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1883-1892] |
+| #   | name          | nb of images | GT for segmenter? | GT for recognizer? |                                                link(s) to source images | 
+|-----|:--------------|:------------:|:-----------------:|:------------------:|------------------------------------------------------------------------:| 
+| 1   | sermaises     |     (69)     |         y         |         y          |             [Archives départementales du Loiret (Sermaises)][sermaises] |
+| 2   | rom-1883-1892 |     (41)     |         y         |         y          | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1883-1892] |
+| 3   | rom-1893-1902 |     (40)     |         y         |         y          | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1893-1902] |
 
 ## Annotation system
 
@@ -36,7 +36,9 @@ If several words are superscripted, each word starts with a "^".
 
 This dataset was built by Jean-François Boutet and [Jean-Pierre Merx](https://github.com/jpmjpmjpm).
 
-The original works and their digitization are all copyright-free, but properly annotating a corpus takes time and is a task that should be recognized. If you use any item from this corpus of ground truth, cite the dataset using the following information:
+The original works and their digitization are all copyright-free, but properly annotating a corpus takes time and is a
+task that should be recognized. If you use any item from this corpus of ground truth, cite the dataset using the
+following information:
 
 ```
 title : 'GenAuto TD Corpus'
@@ -74,7 +76,6 @@ volume:
     - {count: "150, metric: "images"}
 ```
 
-
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
@@ -84,4 +85,5 @@ This work is licensed under a
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 [sermaises]: https://consultation.archives-loiret.fr/e/EtatCivil?from=0&f_11%5B0%5D=Tables+d%E9cennales&f_10%5B0%5D=Sermaises
-[rom-1883-1892]: http://www.archives-aube.fr/ark:/42751/s0057769d248ccfa/57769d248d20b
+[rom-1883-1892]: https://www.archives-aube.fr/ark:42751/s0057769c92e9dea/57769c92ea3cc
+[rom-1893-1902]: http://www.archives-aube.fr/ark:/42751/s0057769d248ccfa/57769d248d20b
