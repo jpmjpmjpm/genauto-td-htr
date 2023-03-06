@@ -21,8 +21,8 @@ The Alto files contain:
 - Transcription of the texts.
 - Polygonalization of the transcribed text zones (performed by [kraken](http://kraken.re/) OCR solution).
 
-| #   | name          | nb of images | GT for segmenter? | GT for recognizer? |                                                link(s) to source images | 
-|-----|:--------------|:------------:|:-----------------:|:------------------:|------------------------------------------------------------------------:| 
+| #   | name          | nb of images | GT for segmenter? | GT for recognizer? |                                                link(s) to source images |
+|-----|:--------------|:------------:|:-----------------:|:------------------:|------------------------------------------------------------------------:|
 | 1   | sermaises     |     (69)     |         y         |         y          |             [Archives départementales du Loiret (Sermaises)][sermaises] |
 | 2   | rom-1883-1892 |     (41)     |         y         |         y          | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1883-1892] |
 | 3   | rom-1893-1902 |     (40)     |         y         |         y          | [Archives départementales de l'Aube (Romilly-sur-Seine)][rom-1893-1902] |
